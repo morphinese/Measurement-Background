@@ -1,0 +1,133 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	font-size: 0.6rem;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*! Header */
+
+.header {
+	margin-top: 60px;
+}
+
+.header-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.header-link {
+	font-size: 24px;
+	color: #000;
+	transition: all 0.3s ease 0s;
+}
+
+.header-link:hover {
+	color: #2196f3;
+}
+
+.header-link::before,
+.header-link::after {
+	content: '';
+	width: 24px;
+	height: 24px;
+	background-size: contain;
+}
+
+.header-link::after {
+	display: none;
+	margin-left: 15px;
+	background-image: url('https://cdn-icons-png.flaticon.com/512/599/599516.png');
+}
+
+.header-link:hover::after {
+	display: block;
+}
+
+/*! Main */
+.page {
+	margin-top: 60px;
+}
+
+.percent-page-list {
+	display: flex;
+	gap: 20px;
+}
+
+.percent-page-item {
+	flex: 0 1 50%;
+}
+
+.percent-page-text {
+	font-size: 18px;
+	line-height: 120%;
+}
+
+/*! EM-PAGE */
+.em-page {
+	margin-top: 60px;
+}
+
+.em-page-container {
+	/* font-size: 150%; */
+}
+
+h1 {
+	/* font-size: 2em; */
+	font-size: 3rem;
+}
+
+h2 {
+	/* font-size: 1.5em; */
+	font-size: 2.5rem;
+}
+
+h3 {
+	/* font-size: 0.8em; */
+	font-size: 2rem;
+}
+
+h4 {
+	/* font-size: 0.6em; */
+}
+
+h5 {
+	/* font-size: 0.4em; */
+}
+
+h6 {
+	/* font-size: 0.2em; */
+}
+
+p span {
+	font-size: 2em;
+}
+
+p strong {
+	font-size: 2rem;
+}
+
+/*! Before, After */
+
+.page-pseudo {
+	margin-top: 60px;
+}
+.pseudo-page-box::before {
+	content: 'Це текст в ::before';
+	font-size: 40px;
+	color: orange;
+}
+
+.pseudo-page-box::after {
+	content: 'Це текст в ::after';
+	font-size: 20px;
+	color: teal;
+}

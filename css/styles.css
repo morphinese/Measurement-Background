@@ -18,6 +18,16 @@ body {
 	margin-top: 60px;
 }
 
+.header-container {
+	/* background-image: url('../img/23-cikavih-faktu-pro-kiyiv.jpg'); */
+	/* background-clip: border-box; */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	background: center / cover no-repeat
+		url('../img/23-cikavih-faktu-pro-kiyiv.jpg');
+	height: 200px;
+}
+
 .header-list {
 	display: flex;
 	justify-content: center;
@@ -55,6 +65,15 @@ body {
 /*! Main */
 .page {
 	margin-top: 60px;
+}
+
+.page-percent {
+	background-image: url('https://foni.club/uploads/posts/2023-01/1673533124_foni-club-p-krutie-oboi-2k-1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
 }
 
 .percent-page-list {
@@ -130,4 +149,8 @@ p strong {
 	content: 'Це текст в ::after';
 	font-size: 20px;
 	color: teal;
+}
+
+.lorem-page-text {
+	font-size: 24px;
 }
